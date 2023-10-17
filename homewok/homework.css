@@ -1,0 +1,44 @@
+.box{
+    width: 700px;
+    height: 550px;
+    border: 1px solid black;
+    background-image: url("radha.jpg" );
+    background-repeat: no-repeat;
+    background-size: 700px 550px;
+}
+
+
+#div1{
+   position: relative;
+   bottom: -18px;
+   padding-left: 8px;
+   color: blue;
+}
+
+
+
+#div2{
+    position: relative;
+    left: 600px;
+    color: blue;
+   
+}
+#div3{
+    position: relative;
+    top: 255px;
+    left: 300px;
+    color: blue;
+}
+#div4{
+    position: relative;
+   top: 450px;
+    left: 566px;
+   
+    color: blue;
+}
+#div5{
+    position: relative;
+    top: 430px;
+    left: 20px;
+    color: blue;
+}

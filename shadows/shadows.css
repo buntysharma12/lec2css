@@ -1,0 +1,16 @@
+h1{
+    /* text-shadow: 2px 2px 2px green; */
+    text-shadow: 15px 15px 15px red, 14px 14px 14px blue
+}
+.div{
+    width: 400px;
+    height: 350px;
+    background-color: chocolate;
+    box-shadow: 0px 0px 10px red 
+    ,0px 0px 20px black;
+    color: blue;
+}
+
+
+  
+

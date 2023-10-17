@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiant</title>
+    <style>
+        .div1{
+            width: 350px;
+            height: 350px;
+            border: 1px solid black;
+            background-image: linear-gradient(red,yellow);/* by default top to down hota h*/
+           
+            background-image: linear-gradient(to bottom, orange, green);
+            background-image: linear-gradient(to top, orange, green);
+            background-image: linear-gradient(to left, orange, green);
+            background-image: linear-gradient(to right, orange, green);
+            background-image: linear-gradient(to bottom right, orange, green);
+            background-image: linear-gradient(to bottom left,red, blue);
+            background-image: linear-gradient(to bottom right, red, green);
+            background-image: linear-gradient(to top left, red, green);
+            background-image: linear-gradient(to top right, orange, green);
+            background-image: linear-gradient(orange,white,green);
+        }
+        .div2{
+            width: 350px;
+            height: 350px;
+            margin-top: 10px;
+            border: 1px solid black;
+            /* background-image: radial-gradient(red,blue);
+            background-image: radial-gradient(circle, blue, green ,red); */
+            background-image: radial-gradient( orange,white ,green);
+    
+        }
+        .div3{
+            width: 350px;
+            height: 350px;
+            margin-top: 10px;
+            border: 1px solid black;
+            background-image: conic-gradient(red,blue,orange);
+            
+        }
+    
+            </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+</body>
+</html>
